@@ -5,5 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-  base: '/Deploy_vite+react/'
+base: '/Deploy_vite-react/' // if the URL is https://username.github.io/Deploy_vite-react/
+
 })
